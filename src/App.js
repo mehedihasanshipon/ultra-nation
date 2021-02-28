@@ -27,7 +27,8 @@ function App() {
   }
   return (
     <div className="App">
-      <h1>Country loaded: {countries.length}</h1>
+      <h1>Country Update</h1>
+      <h2>Country loaded: {countries.length}</h2>
       <h4>Country added: {cart.length}</h4>
       <Cart cart = {cart} />
         {
